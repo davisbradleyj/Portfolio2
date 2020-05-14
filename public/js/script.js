@@ -34,6 +34,6 @@ $(document).ready(function () {
             <p class="has-text-link">BATMaN is a community hub and toolset for outdoor enthusiasts to discover new communities and new adventures in the Bay Area and beyond.  Pick a trail, build a community, get outside!</p>
             <a class="fa fa-github" style="font-size:18px" href="https://github.com/davisbradleyj/ucb-batman" target="_new"> - Github Repo</a>
             <p class="has-text-link">May 2020</p>`
-    })
+    )
 })
-
+})
