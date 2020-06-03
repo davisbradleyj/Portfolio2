@@ -1,4 +1,4 @@
-# Refactoring Professional Materials Portfoilio
+# Refactoring Professional Materials Portfolio
 
 [<img src="https://img.shields.io/badge/License-MIT-blue.svg">](https://opensource.org/licenses/MIT) [<img src="https://img.shields.io/badge/_ES_-_6_-green.svg">](https://tc39.es/ecma262/) [<img src=https://img.shields.io/badge/_JavaScript_-_ECMA6_-green.svg>](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [<img src=https://img.shields.io/badge/_MySQL_-2.18.1_-orange.svg>](https://www.npmjs.com/package/mysql) [<img src=https://img.shields.io/badge/_Express_-_4.16.4-pink.svg>](https://www.npmjs.com/package/fs-extra)
 
