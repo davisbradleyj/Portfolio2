@@ -20,3 +20,8 @@ module.exports = function (sequelize, DataTypes) {
     });
     return Skills
 };
+
+
+href="{string of address.com}"
+title="{proj name}"
+image="/../{src image file}"
