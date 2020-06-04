@@ -25,7 +25,7 @@ $(document).ready(function () {
         <p>&bull;${data[0].tech}</p>`
         )
     })
-    $.get(Projects, function(data) {
+    $.get(Projects, function (data) {
         $("#tech").append(
             `<div class="box">
             <a class="subtitle has-text-info" href="${data[i].href}" target="_new">${data[i].title}.</a>
@@ -34,6 +34,26 @@ $(document).ready(function () {
             <p class="has-text-link">BATMaN is a community hub and toolset for outdoor enthusiasts to discover new communities and new adventures in the Bay Area and beyond.  Pick a trail, build a community, get outside!</p>
             <a class="fa fa-github" style="font-size:18px" href="https://github.com/davisbradleyj/ucb-batman" target="_new"> - Github Repo</a>
             <p class="has-text-link">May 2020</p>`
-    )
+        )
+    })
 })
-})
+
+
+//Get the button
+var mybutton = document.getElementById("topBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
