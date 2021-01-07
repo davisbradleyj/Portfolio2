@@ -1,41 +1,41 @@
 #hero-main {
-    padding-top: 47rem;
-    padding-bottom: 100px;
+  padding-top: 47rem;
+  padding-bottom: 100px;
 }
 
 #foot-pad {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .title {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #nav-toggle-state {
-    display: none;
-  }
-  
-  #nav-toggle-state:checked ~ .nav-menu {
-    display: block;
-  }
+  display: none;
+}
 
-  #skillTitle {
+#nav-toggle-state:checked ~ .nav-menu {
+  display: block;
+}
+
+/* #skillTitle {
     padding-bottom: 1rem;
-  }
+  } */
 
-  #subTitle {
-    margin-bottom: 0rem;
-    padding-bottom: 10px;
-  }
+#subTitle {
+  margin-bottom: 0rem;
+  padding-bottom: 10px;
+}
 
-  body { 
-    background-image: url(https://miro.medium.com/max/3240/0*RY3sbOX1dP5jZDj-);
-    background-position: center center;
-    background-repeat:  no-repeat;
-    background-attachment: fixed;
-    background-size:  cover;
-    background-color: #999;
+body {
+  background-image: url(https://miro.medium.com/max/3240/0*RY3sbOX1dP5jZDj-);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
 }
 
 #topBtn {
@@ -54,9 +54,21 @@
   width: 60px;
   padding: 15px;
   border-radius: 50%;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 #topBtn:hover {
   background-color: #555;
+}
+
+#skills {
+  margin-bottom: 250px !important;
+}
+
+#projects {
+  margin-bottom: 250px !important;
+}
+
+#contact {
+  margin-bottom: 100px !important;
 }
