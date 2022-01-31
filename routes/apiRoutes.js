@@ -10,7 +10,7 @@ module.exports = function (app) {
     });
     app.get("/resume", function (req, res) {
         console.log("Resume")
-        res.sendFile("/Brad_Davis_Resume_2021.pdf", {
+        res.sendFile("/Brad_Davis_Resume_2022.pdf", {
             root: path.join(__dirname, "../public")
         });
     });
